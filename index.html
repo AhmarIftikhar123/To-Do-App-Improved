@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Todo app</title>
+
+</head>
+<body>
+<div class="wrapper">
+
+  <!-- header -->
+
+  <header>
+    <h1>
+      Todo
+    </h1>
+    <img src="images/icon-moon.svg" alt="">
+  </header>
+
+  <!-- todo_section -->
+  <div class="todo_section">
+    <div class="todo_input">
+      <input type="text"  id="todo" placeholder="Create a new todo">
+    </div>
+  </div>
+  
+  <!-- todo_wrapper -->
+  
+  <div class="todo_wrapper">
+
+    <ul class="tasks_box">
+      
+    </ul>
+
+</div>
+  <section class="todo_data">
+    <small class="items">
+      <span class="todo_numbers">
+        0
+      </span>
+      items left
+    </small>
+    <div class="todo_states">
+
+      <small class="active" data-filter="All">All</small>
+
+      <small data-filter="Active">
+        Active 
+      </small >
+      <small data-filter="Completed">
+        Completed
+      </small>
+    </div>
+    <small class="" id="clear"  >
+      Clear Completed
+    </small>
+  </section>
+
+  <footer style="text-align: center;">
+    <small>Drag and drop to reorder list</small></footer>
+  </div>
+
+</body>
+<script src="script.js"></script>
+</html>
+
+
+
